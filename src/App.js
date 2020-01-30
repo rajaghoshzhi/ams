@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Classes from './App.css';
 import Header from './components/Header/Header';
+import { Alert } from 'reactstrap';
 
 class App extends Component {
   state = {
@@ -17,6 +18,7 @@ class App extends Component {
     return (
       <div className={Classes.App}>
           <Header fields={this.state.preLogin}/>
+          
       </div>
     );
   }
