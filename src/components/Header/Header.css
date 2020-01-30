@@ -1,0 +1,17 @@
+.FlexContainer{
+    display:flex;
+    background-color: DodgerBlue;  
+    justify-content: flex-end;
+  }
+  .FlexContainer > *:first-child{
+      margin: auto;
+      background: none;
+      color: white;
+      font-size: 25px;
+  }
+  .FlexContainer > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+  }
