@@ -1,0 +1,23 @@
+.FormLayout{
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid #e06a0b;
+    border-radius: 5px;
+    margin-top: 200px;
+    background-color: #fff;
+}
+.FormHeader{
+    /* background: #e36f09; */
+    background-color: #f9484a;
+    background-image: linear-gradient(315deg, #f9b248 0%, #e36f09 74%);
+    height: 40px;
+    color: white;
+    padding: 2px 15px;
+    font-size: 20px;
+}
+.FormHeader > header {
+    float:left;
+}
+.FormBody{
+    padding: 20px;
+}

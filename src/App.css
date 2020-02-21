@@ -2,4 +2,7 @@
 .App {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
+  background:url('./images/geometry.jpg')  no-repeat center center fixed;
+  background-size: cover;
+  height: 1100px;
 }

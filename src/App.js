@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Classes from './App.css';
 import Header from './components/Header/Header';
 import Login from './containers/Login/Login';
-
 class App extends Component {
   state = {
     preLogin :{
